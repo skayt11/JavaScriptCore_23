@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/uk.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/vader/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Lesson 23 | JS Core</title>
+</head>
+
+<body>
+    <h1></h1>
+    <form>
+        <p>День тижня через 20 років.</p>
+        <label for="name">Ім'я</label>
+        <input type="text" name="name" id="name">
+        <label for="date">День народження</label>
+        <input type="text" name="date" id="date" readonly>
+        <label for="inputYear">Скільки років добавити?</label>
+        <input type="number" name="inputYear" id="inputYear" min="1" max="100" value="20">
+        <input type="button" value="Перевірити" id="btn">
+    </form>
+
+    <p id="time"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>
